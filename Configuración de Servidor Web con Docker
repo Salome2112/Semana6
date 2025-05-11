@@ -37,11 +37,11 @@ Para realizar esta práctica, el estudiante necesita tener conocimientos previos
 
 ## 7. Material de apoyo
 
-- **Documentación de Docker**: https://docs.docker.com
+- **Documentación de Docker**
 - **Guía de asignatura**: proporcionada por el docente.
 - **Cheat sheet de Linux**: para comandos rápidos de terminal.
-- **Documentación de Nginx**: https://nginx.org/es/docs/
-
+- **Documentación de Nginx**
+**Figura 1.** (https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-e3cc-61f7-9ab5-0e3736cad3a1/raw?se=2025-05-11T04%3A32%3A56Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-11T01%3A05%3A22Z&ske=2025-05-12T01%3A05%3A22Z&sks=b&skv=2024-08-04&sig=cFPk8v9L8XHbqI1ix4qIYb7DNUdNG5uHNBoBbmLZpPo%3D)
 ## 8. Procedimiento
 
 ### Paso 1: Crear el archivo `docker-compose.yml`
