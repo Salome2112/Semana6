@@ -1,0 +1,66 @@
+# Informe de la Práctica: Configuración de Servidor Web con Docker
+
+## 1. Título
+
+**Implementación de un servidor web con Docker Compose utilizando Nginx, WordPress y PostgreSQL**
+
+## 2. Tiempo de duración
+
+**Tiempo estimado:** 90 minutos.
+
+## 3. Fundamentos
+
+Docker es una plataforma de software que permite ejecutar aplicaciones en contenedores. Un contenedor es una unidad ligera que agrupa una aplicación y todas sus dependencias necesarias para ejecutar la aplicación de forma consistente en cualquier entorno. Docker Compose es una herramienta que permite definir y ejecutar aplicaciones con múltiples contenedores mediante un archivo YAML. En esta práctica, se configura un servidor web con WordPress, PostgreSQL y PgAdmin, que interactúan a través de contenedores. 
+
+En el caso específico de **Nginx**, se utiliza como un servidor web que maneja las solicitudes HTTP y las dirige a los contenedores adecuados (WordPress en este caso). Nginx es conocido por su alto rendimiento y bajo consumo de recursos.
+## 4. Conocimientos previos
+
+Para realizar esta práctica, el estudiante necesita tener conocimientos previos sobre los siguientes temas:
+- **Comandos Linux**: conocimiento básico de la terminal.
+- **Manejo de navegador**: comprensión de cómo acceder a aplicaciones web.
+- **Docker**: comprensión básica de contenedores y el archivo `docker-compose.yml`.
+- **Configuración de servidores web**: nociones sobre la configuración de Nginx y su integración con otras aplicaciones.
+
+## 5. Objetivos a alcanzar
+
+- Implementar contenedores con Nginx para servir aplicaciones web.
+- Configurar y manipular archivos de configuración de Nginx y Docker.
+- Integrar WordPress con PostgreSQL en un entorno Dockerizado.
+- Administrar la base de datos PostgreSQL usando PgAdmin.
+
+## 6. Equipo necesario
+
+- **Computadora**: Con sistema operativo **Windows/Linux/Mac**.
+- **Docker**: Docker v20.10.7 o superior.
+- **Cuenta de Docker Hub**: para descargar imágenes de contenedores.
+- **Editor de texto**: para editar archivos YAML y configuraciones.
+
+## 7. Material de apoyo
+
+- **Documentación de Docker**: https://docs.docker.com
+- **Guía de asignatura**: proporcionada por el docente.
+- **Cheat sheet de Linux**: para comandos rápidos de terminal.
+- **Documentación de Nginx**: https://nginx.org/es/docs/
+
+## 8. Procedimiento
+
+### Paso 1: Crear el archivo `docker-compose.yml`
+
+Crear un archivo `docker-compose.yml` con los tres servicios: WordPress, PostgreSQL y PgAdmin.
+
+### Paso 2: Levantar los contenedores
+
+Ejecutar el comando `docker-compose up` para iniciar todos los servicios definidos.
+
+### Paso 3: Acceder a las aplicaciones
+
+Acceder a WordPress en `http://localhost:8080` y a PgAdmin en `http://localhost:5050`.
+
+## 9. Resultados esperados
+
+Después de completar los pasos, se espera poder acceder a WordPress en el navegador y usar PgAdmin para administrar la base de datos PostgreSQL. A continuación se muestran capturas de pantalla de los resultados finales:
+
+## 10. Bibliografía
+
+- Docker, Inc. (2021). *Docker Documentation*. Docker, Inc. https://docs.docker.com
+- Nginx, Inc. (2021). *Nginx Documentation*. Nginx, Inc. https://nginx.org/es/docs/
